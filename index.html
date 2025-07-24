@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trekking Adventure Personality Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="background-blur-overlay"></div>
+    <video autoplay muted loop id="background-video">
+        <source src="istockphoto-1307632415-640_adpp_is.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+      <audio id="background-music" loop>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <div id="start-page" class="quiz-section active">
+            <h1>"Himalayan Trek Adventure"</h1>
+            <p> </p>
+            <div class="button-row">
+                <button id="start-quiz-btn" class="button">🚶‍♂️ Start Your Trek</button>
+            </div>
+        </div>
+
+        <div id="quiz-container" class="quiz-section">
+            <div class="top-image-container">
+                <img id="quiz-top-image" src="himalayan_trek_top.jpg" alt="Himalayan Trek"> </div>
+            <div id="question-area">
+                </div>
+            <div id="question-pagination">
+                </div>
+        </div>
+
+        <div id="results-page" class="quiz-section">
+            
+            <h2 class="results-title">Your Color</h2>
+            <div id="results-display">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
